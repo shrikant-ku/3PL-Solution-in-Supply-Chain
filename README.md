@@ -32,7 +32,7 @@ Tools and platform used:
      Remix
      Visual Studio code 
      React Framework 
-     SafeMath library from openzappelin
+     SafeMath library from openzeppelin
      Truffle Evironment to deploy and test the smart contract. 
   
   
