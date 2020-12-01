@@ -5,7 +5,7 @@ Applications:
 E-commerce company like flipkart, amazon can use this solution to give their user a semaless,secure and fast payment experience. 
 
 
-Artecture Layer:
+Architecture Layer:
   Item smart contract:
       Item property and payment acceptance functionality
       Calls Item Manager function to for furtehr  steps.
