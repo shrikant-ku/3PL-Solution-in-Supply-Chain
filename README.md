@@ -13,9 +13,9 @@ Architecture Layer:
      3. Handle submit: This function will send the created item to the blockchain.
      
   
-    Item smart contract:
-      Item property and payment acceptance functionality
-      Calls Item Manager function to for furtehr  steps.
+   Item smart contract:
+     Item property and payment acceptance functionality
+     Calls Item Manager function to for furtehr  steps.
       
    Item Manager Smart contract:
       It handle the creation of item.
