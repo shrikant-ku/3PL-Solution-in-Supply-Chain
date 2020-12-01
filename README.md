@@ -29,20 +29,20 @@ Remix,  Visual Studio code, React Framework, SafeMath library from openzappelin,
 
 
 Advantages:
-Payment will take place very fast,and in secure mode.
-With every payment, next payment security get improves.
+  Payment will take place very fast,and in secure mode.
+  With every payment, next payment security get improves.
 
 Disadavantages:
-As this  is very new to user, So user may hesitate to adopt it for their payment.
-Currently only it is able to notifiy the different parties involved at certain points only.
+  As this  is very new to user, So user may hesitate to adopt it for their payment.
+  Currently only it is able to notifiy the different parties involved at certain points only.
 
 Future improvement:
-Later it can improved so that each party involved can track the item status at every point of time.
+  Later it can improved so that each party involved can track the item status at every point of time.
 
 Challanges: 
-Update in solidity very often.
-Changes in audited smart contract which
-Understanding connections between various party invlved
+  Update in solidity very often.
+  Changes in audited smart contract which
+  Understanding connections between various party invlved
 
 
 
