@@ -29,7 +29,11 @@ Architecture Layer:
       
 Tools and platform used:
 
-     Remix,  Visual Studio code, React Framework, SafeMath library from openzappelin, Truffle Evironment to deploy and test the smart contract. 
+     Remix
+     Visual Studio code 
+     React Framework 
+     SafeMath library from openzappelin
+     Truffle Evironment to deploy and test the smart contract. 
   
   
 
