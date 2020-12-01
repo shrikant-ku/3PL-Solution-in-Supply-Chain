@@ -50,8 +50,8 @@ Future improvement:
 Challanges: 
   
     Update in solidity very often.
-    Changes in audited smart contract which
-    Understanding connections between various party involved
+    Often changes in openzeppelin audited smart contract.
+    Understanding connections between various party involved.
 
 
 
