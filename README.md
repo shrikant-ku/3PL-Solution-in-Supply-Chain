@@ -27,13 +27,13 @@ Architecture Layer:
       Provides trigger delivery and payment functionality.
     
       
-Tools and platform used:
+Techologies used:
 
      Remix
      Visual Studio code 
      React Framework 
      SafeMath library from openzeppelin
-     Truffle Evironment to deploy and test the smart contract. 
+     Truffle Evironment
   
   
 
@@ -43,7 +43,7 @@ Advantages:
     Payment will take place very fast,and in secure mode.
     With every payment, next payment security get improves.
 
-Disadvantages:
+Drawbacks:
     
     As this  is very new to user, So user may hesitate to adopt it for their payment.
     Currently only it is able to notifiy the different parties involved at certain points only.
