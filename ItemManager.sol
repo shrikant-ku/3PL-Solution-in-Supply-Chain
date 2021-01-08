@@ -12,7 +12,6 @@ contract ItemManager is Ownable{
         uint _priceInWei ;
     }
     mapping(uint =>S_Item) public items ;
- 
     
     event SupplyChainStep(uint _itemIndex, uint _step,address _address) ;
     function createItem(string memory _identifier, uint _priceInWei) public onlyOwner
