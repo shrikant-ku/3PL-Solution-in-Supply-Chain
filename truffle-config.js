@@ -1,8 +1,7 @@
 const path = require("path");//To include the path module we use require() ;
 
 module.exports = {
-  // See <http://truffleframework.com/docs/advanced/configuration>
-  // to customize your Truffle configuration!
+ 
   contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   networks: {
     develop: {
