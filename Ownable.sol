@@ -6,18 +6,11 @@ contract Ownable {
     constructor()internal {
         _owner=msg.sender;
     }
-    
-    
-    //Throws if called by any account other than the _owner
-    
-    modifier onlyOwner(){
+   modifier onlyOwner(){
         require(isOwner(),"Ownable : caller is not the owner") ;
         _;
     }
-    
-    //returns true if caller is the owner
-    
-    function isOwner()public view returns (bool){
+  function isOwner()public view returns (bool){
         return (msg.sender==_owner) ;
     }
 }
