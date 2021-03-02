@@ -84,7 +84,7 @@ render() {
  return (
  <div className="App">
    
- <h1>Simply Payment/Supply Chain Example!</h1>
+ <h1>Payment Collection Method!</h1>
    
  <h2>Items</h2>
 
