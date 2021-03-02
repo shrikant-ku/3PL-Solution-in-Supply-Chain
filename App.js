@@ -30,7 +30,7 @@ class App extends Component {
 
  alert(`Failed to load web3, accounts, or contract. Check console for details.`,
        );
- console.error(error);
+
  }
  };
  
@@ -38,11 +38,9 @@ handleSubmit = async () => {
   
  const { cost, itemName } = this.state;
   
- console.log(itemName, cost, this.itemManager);
   
  let result = await this.itemManager.methods.createItem(itemName, cost).send({ from:this.accounts[0] });
-  
- console.log(result);
+
   
  alert("Send "+cost+" Wei to "+result.events.SupplyChainStep.returnValues._address);
   
@@ -74,11 +72,11 @@ listenToPaymentEvent = () => {
    
  let item = await self.itemManager.methods.items(evt.returnValues._itemIndex).call(
 );
- console.log(item);
+ 
    
  alert("Item " + item._identifier + " was paid, deliver it now!");
  };
- console.log(evt);
+
  });
  }
 
