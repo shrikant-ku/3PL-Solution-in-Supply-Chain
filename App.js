@@ -28,8 +28,7 @@ class App extends Component {
  catch (error) 
  {
 
- alert(`Failed to load web3, accounts, or contract. Check console for details.`,
-       );
+ alert("Failed to load web3, accounts, or contract. Check console for details.");
 
  }
  };
@@ -38,17 +37,13 @@ handleSubmit = async () => {
   
  const { cost, itemName } = this.state;
   
-  
- let result = await this.itemManager.methods.createItem(itemName, cost).send({ from:this.accounts[0] });
+let result = await this.itemManager.methods.createItem(itemName, cost).send({ from:this.accounts[0] });
 
-  
  alert("Send "+cost+" Wei to "+result.events.SupplyChainStep.returnValues._address);
   
  };
 
-
-
- handleInputChange = (event) => {
+handleInputChange = (event) => {
    
  const target = event.target;
    
@@ -73,7 +68,6 @@ listenToPaymentEvent = () => {
  let item = await self.itemManager.methods.items(evt.returnValues._itemIndex).call(
 );
  
-   
  alert("Item " + item._identifier + " was paid, deliver it now!");
  };
 
